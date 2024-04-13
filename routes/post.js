@@ -15,7 +15,7 @@ router.post("/createPost", auth, isUser, createPost);
 router.get("/fetchPost", fetchPost);
 router.get("/fetchPosts", fetchPosts);
 router.get("/fetchCategoryPosts", fetchCategoryPosts);
-router.put("/updatePost", auth, isUser, updatePost);
-router.delete("/deletePost", auth, isUser, deletePost);
+router.put("/updatePost", auth,  updatePost);
+router.delete("/deletePost", auth,  deletePost);
 
 module.exports = router;

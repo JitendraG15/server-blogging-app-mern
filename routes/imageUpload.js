@@ -4,7 +4,7 @@ const router = express.Router();
 const {uploadImage, updateProfileImage} = require("../controllers/upload");
 const {auth, isAdmin} = require("../middlewares/auth")
 
-router.post("/uploadImage",auth, uploadImage);
-router.post("/updateProfileImage",auth, updateProfileImage);
+router.post("/uploadImage", uploadImage);
+router.post("/updateProfileImage", updateProfileImage);
 
 module.exports = router;
