@@ -57,6 +57,11 @@ server.use("/api/v1/admin", adminRoute);
 // Loading port number
 const port = process.env.PORT || 4000;
 
+// Adding default route content
+server.use("/",(req, res)=>{
+  return res.send("Welcome to the Our Blogging server. We are ready to serve client requests!")
+})
+
 // Making server live to listen to client requests
 server.listen(port, (req, res) => {
   console.log(`Server is up and listening at port no. ${port}`);
