@@ -20,3 +20,6 @@
   <li>Run the server by command 'npm start'</li>
 <li>Get you server url for connection to your client application</li>
 </ol>
+
+<p><strong>Note 1:</strong> Here, we are using a cloud platform <a href="" target="_blank" ><strong> Cloudinary </strong> </a> to store our assets like images and all </br> So, you are supposed to create an account there and get your cloud name, api key, and api secret </p>
+ <p><strong>Note 2:</strong>Here Folder name is the place where your assets will be stored at your specified folder</p>
